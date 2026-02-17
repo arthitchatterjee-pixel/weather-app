@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 65%;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+#weatherIcon {
+    width: 80px;
+    margin: 10px 0;
+}
+
+#loading {
+    font-weight: bold;
+    color: gray;
+}
