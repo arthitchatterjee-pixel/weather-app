@@ -38,3 +38,13 @@ button {
     font-weight: bold;
     color: gray;
 }
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weatherIcon {
+    width: 100px;
+    margin: 10px 0;
+}
